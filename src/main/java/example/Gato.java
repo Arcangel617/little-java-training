@@ -36,7 +36,7 @@ public class Gato extends Animal {
 
     @Override
     public String comer() {
-        return "Comer" + getComida();
+        return "Comer " + getComida();
     }
 
     @Override
